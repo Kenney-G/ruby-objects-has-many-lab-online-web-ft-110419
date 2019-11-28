@@ -20,7 +20,7 @@ end
   end
   
   def song_count
-    song_count = songs.count
+    song_count = song.all.count
   end
   
 end
