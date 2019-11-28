@@ -19,4 +19,5 @@ end
   
   def song_count
     song_count = songs.count
+  end
 end
