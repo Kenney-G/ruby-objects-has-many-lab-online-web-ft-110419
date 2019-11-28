@@ -20,6 +20,7 @@ end
   end
   
   def song_count
+    @soung_count = soung_count
     song_count = Song.all.count
   end
   
