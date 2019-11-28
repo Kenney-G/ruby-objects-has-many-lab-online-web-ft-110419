@@ -9,6 +9,8 @@ class Song
     save
   end
  
+ def name
+   name = self
   def save
     @@all << self
   end
