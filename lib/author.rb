@@ -5,7 +5,7 @@ class Author
     @name = name
   end
  
-  def add_song(post)
+  def add_post(title)
     post.artist = self
   end
  
