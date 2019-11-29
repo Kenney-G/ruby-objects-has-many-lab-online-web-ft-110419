@@ -16,7 +16,7 @@ def add_post_by_name(name)
 end
   
   def posts
-    Post.all.select {|post| post.artist == self}
+    Post.all.select {|post| post.name == self}
   end
   
   def self.post_count
