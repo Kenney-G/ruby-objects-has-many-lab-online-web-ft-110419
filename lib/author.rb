@@ -1,10 +1,9 @@
 class Author
   attr_accessor :name, :title, 
-     @@all << self
      
   def initialize(name)
     @name = name
-    @@all
+    @@all << self
   end
  
   def add_post(title)
