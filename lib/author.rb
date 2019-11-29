@@ -9,9 +9,9 @@ class Author
     post.artist = self
   end
  
-def add_post_by_name(name)
-    post = Post.new(name)
-    add_post(name)
+def add_post_by_title(title)
+    post = Post.new(title)
+    add_post(title)
 end
   
   def posts
