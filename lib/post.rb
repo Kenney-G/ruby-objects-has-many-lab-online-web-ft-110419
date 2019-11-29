@@ -10,6 +10,8 @@ class Post
     save
   end
  
+ def author_name
+   
   def save
     @@all << self
   end
