@@ -4,6 +4,7 @@ class Author
   def initialize(name)
     @title = title
     @name = name
+    @author = author
   end
  
   def add_song(post)
