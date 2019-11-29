@@ -13,6 +13,7 @@ class Post
  def author_name
    Author.new(name)
  end
+ 
   def save
     @@all << self
   end
