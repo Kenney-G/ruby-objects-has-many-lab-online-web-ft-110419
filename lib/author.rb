@@ -1,16 +1,16 @@
 class Author
   attr_accessor :title, :post
  
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
   end
  
   def add_song(post)
     post.artist = self
   end
  
-def add_post_by_name(name)
-    post = Post.new(name)
+def add_post_by_name(title)
+    post = Post.new(title)
     add_post(post)
 end
   
