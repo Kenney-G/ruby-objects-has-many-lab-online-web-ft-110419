@@ -16,7 +16,7 @@ def add_post_by_name(name)
 end
   
   def posts
-    Post.all.select {|post| post.title == title}
+    Post.all.select {|post| post.author == title}
   end
   
   def self.post_count
