@@ -15,7 +15,7 @@ def add_post_by_name(name)
     add_post(name)
 end
   
-  def post
+  def posts
     Post.all.select {|post| post.artist == self}
   end
   
