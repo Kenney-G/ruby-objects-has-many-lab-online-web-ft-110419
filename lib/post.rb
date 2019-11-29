@@ -11,7 +11,7 @@ class Post
   end
  
  def author_name
-   Author.new(name)
+   Author.name
  end
  
   def save
